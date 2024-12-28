@@ -1,8 +1,3 @@
-# Written by: Udaya Shankar S
-# Dated: 18.11.2022
-# TCL procedure to check for the submodules (files) for the main modules are present are not (hierarchy check).
-# Version:1.0
-
 proc hierarchy_check {in} {
 	set inf [open $in r]
 	set g {}

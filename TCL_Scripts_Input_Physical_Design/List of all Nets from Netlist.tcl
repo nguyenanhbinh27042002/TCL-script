@@ -1,8 +1,3 @@
-#Written by: Udaya Shankar S
-#Dated: 18.11.2022
-#TCL Script to Fine the total number  and list of wires/nets in Verilog Netlist
-#Version:1.0
-
 proc NoofNes {in} {
 	set inf [open $in r]
 	set io {}
